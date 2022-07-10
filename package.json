@@ -1,0 +1,28 @@
+{
+  "name": "back-end-sorocaps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node index.js",
+    "start":"nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thuliopv360/Back-End-Sorocaps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thuliopv360/Back-End-Sorocaps/issues"
+  },
+  "homepage": "https://github.com/thuliopv360/Back-End-Sorocaps#readme",
+  "dependencies": {
+    "mysql2": "^2.3.3",
+    "pg": "^8.7.3",
+    "sequelize": "^6.21.2",
+    "uuid": "^8.3.2"
+  }
+}
